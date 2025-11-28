@@ -1,0 +1,70 @@
+.contato {
+  background: rgb(236, 206, 168);
+}
+
+.titulo_contato {
+  color:rgb(98, 56, 28);
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  
+}
+.contato-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.mapa {
+  flex: 420px; 
+  max-width: 600px;
+  min-width: 280px;
+}
+.mapa img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.form-contato {
+  flex: 420px;
+  max-width: 420px;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  height: 350px; 
+  padding: 10px 0;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.form-contato input, .form-contato textarea {
+  border: 1px solid #d6d6d6;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn-enviar {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #d6453d;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contato-info {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #674704;
+}

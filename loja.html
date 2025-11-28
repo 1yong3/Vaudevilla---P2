@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaudevilla Pedido</title>
+     <link rel="stylesheet" href="./css/vaudp2-css/header.css">
+    <link rel="stylesheet" href="./css/loja-css/loja.css">
+      <link rel="stylesheet" href="./css/loja-css/loja_responsivo.css">
+    <link rel="stylesheet" href="./css/loja-css/">
+    <link rel="stylesheet" href="./css/vaudp2-css/footer.css">
+</head>
+<body>
+   <header>
+        <div class="logo_area">
+        <img src ="img/vaudevilla_logo.png"  class="logo">
+        <h1> Vaude<span class="villa">Villa</span></h1>
+        </div>
+    <!-- botoes -->
+    <div class="nav_links"> 
+        <h1><a href="./index.html" class="nav_lik">Home</a>
+        <!-- <h1><a href="#Sobre_nav" class="nav_lik">Sobre</a> </h1> 
+        <h1><a href="#Produto_nav" class="nav_lik">Produtos</a> </h1> 
+        <h1><a href="#Avaliacao_nav" class="nav_lik">Avaliaçoẽs</a></h1>
+        <h1><a href="#Contato_nav" class="nav_lik">Contato</a> </h1> -->
+        <button class="login"><a   href="./index.html" >Logout</a></button>
+    </div>
+    </header> 
+    <!-- cards -->
+
+        <section class="container">
+            <div class="produtos">
+                <div class="card">
+            <img src="img/caneca_vaud.png">
+            <div class="info">
+                <h2>Caneca Vaudevilla</h2>
+                <p> Caneca de cêramica artesanal perfeita para manter as bebidas geladas por mais tempo.</p>
+        <br> <b>R$ 25,00</b> <br>
+            <button class="btn_add" data-nome="Caneca Vaudevilla" data-preco="25">Adicionar Pedido</button>
+            </div>
+                </div>
+        
+
+            <div class="card">
+            <img src="img/hq_vaud.png">
+            <div class="info">
+                <h2>Quadrinho Primeira Edição</h2>
+                <p> A primeira edição do Quadrinho Vaudevilla, contém cinco histórias com total de 100 páginas.</p>
+        <br> <b>R$ 30,00</b> <br>
+            <button class="btn_add" data-nome="Quadrinho Primeira Edição" data-preco="30">Adicionar Pedido</button>
+            </div>
+                </div>
+        
+            <div class="card">
+            <img src="img/colar_vaud.png">
+            <div class="info">
+                <h2>Pingente do Mágico Houdini</h2>
+                <p> Um colar Mágico super luxuoso que trás elegância as apresentações e espetáculos.</p>
+        <br> <b>R$ 25,00</b> <br>
+            <button class="btn_add" data-nome="Pingente do Mágico Houdini" data-preco="25">Adicionar Pedido</button>
+            </div>
+                </div>
+            </div>
+        
+        <aside class="carrinho"> 
+            <h2>Pedido</h2>
+            <ul id="lista_carrinho">
+                <li class="vazio">Ainda não há pedidos.</li>
+                </ul>
+            <div class="total">
+                Total R$ <span id="total"> 0,00</span>
+            </div>
+    <button class="btn_finalizar"> Finalizar Pedido</button>
+        </aside>
+        </section>
+    <footer class="footer">
+    <p class="footer_txt"> ©2025 Vaudevilla P2. Todos os Direitos reservados.</p>
+    <img src ="img/logos_social.png" class="social_logo">
+    </footer>
+
+    <script src="loja.js"></script> 
+</body>
+
+</html>

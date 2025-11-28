@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vaudevilla_loja_p2</title>
+    <link rel="stylesheet" href="./css/vaudp2-css/header.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/footer.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/responsivo.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/produtos-destaque.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/sobre.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/section-cards.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/section-contato.css">
+  
+</head>
+
+<body id="Home_nav">
+  <header>
+      <div class="logo_area">
+        <img class="logo" src="img/vaudevilla_logo.png">
+        <h1>Vaude<span class="villa">Villa</span></h1>
+      </div>
+<!-- botoes --> 
+    <div class="nav_links"> 
+      <h1> <a href="./login.html" class="nav_lik">Home</a></h1>
+      <h1> <a href="#Sobre_nav" class="nav_lik" >Sobre</a></h1> 
+      <h1> <a href="#Produto_nav" class="nav_lik"> Produtos</a></h1> 
+      <h1> <a href="#Avaliacao_nav"class="nav_lik"> Avaliaçoẽs</a></h1>
+      <h1> <a href="#Contato_nav" class="nav_lik"> Contato</a></h1>
+      <button class="login"><h1><a href="login.html">Login</a> </h1></button>
+    </div>
+  </header>
+
+    <section id="container-imagem_bg">
+      <img class="background" src="img/vaudevilla_bg_login.jpg">
+          <div class="overlay_txt">
+            <h1 id="overlay_princp"> Uma história nunca vista antes </h1>
+            <br>
+            <p id="overlay_second">Compre aqui seu Quadrinho e produtos artesanais</p>
+            <br><br>
+            <a href="./login.html" class="cardapio">Ver Produtos</a> </div> <!-- Atualizado aqui -->
+  </section>
+<section class ="gradiente_baiano">
+</section>
+<!-- sobre -->
+<section class="sobre" id="Sobre_nav">
+    <h2> <span class="line">| Sobre Nós |</span></h2>
+    <p class="sobre_txt"> Vaudevilla é uma loja de quadrinhos e artefatos artesanais de qualidade voltados ao mundo do Espetáculo e do Circo.
+    <br>
+    Nosso compromisso é com o entretenimento e trazer uma experiência única com histórias que trazem desde questões filosoficas até a pura comédia.
+    </p>
+</section>
+
+<section class="produtos" id="Produto_nav">
+    <h2><span class="line">| Produtos em Destaque |</span></h2> <br>
+    <div class="cards_container">
+    <div class="card">
+      <img src ="img/caneca_vaud.png">
+      <h3 class="titulo_produto"> Caneca Vaudevilla! </h3>
+      <p class="desc_produto"> Caneca artesanal perfeita para qualquer bebida<br></p>  
+      <a href="./login.html" class="compre">Comprar</a> 
+    </div>
+
+  <div class="card">
+    <img src ="img/hq_vaud.png">
+    <h3 class="titulo_produto"> Quadrinho Primeira Edição </h3>
+    <p class="desc_produto"> O Quadrinho que iniciou tudo!<br> A primeira versão de Vaudevilla </p>
+    <a href="./login.html" class="compre">Comprar</a>   
+  </div>
+
+    <div class="card">
+      <img src ="img/colar_vaud.png">
+      <h3 class="titulo_produto"> Pingente do Mágico </h3>
+      <p class="desc_produto"> Acessório artesanal que combina com qualquer roupa<br> Adquira já o seu! </p>
+      <a href="./login.html" class="compre">Comprar</a>   
+    </div>
+</section>
+
+    <!-- avaliações -->
+<section class="avaliações" id="Avaliacao_nav">
+    <h2 class="av_est"><span class="line">| Avaliações |</span></h2> <br>
+    <div class="av_container">
+    <div class="av_card">
+     <p class="av_txt"> <i>"Excelentes produtos! Rápidos, bonitos e mágicos!"</i><br></p>
+     <h3 class="av_nm"> - Houdini </h3>   
+ </div>
+
+    <div class="av_card">
+     <p class="av_txt"> <i>"Esse Comic é maravilhoso! Estou no aguardo das continuações"</i></p>
+     <h3 class="av_nm"> - Chris Angel</h3>   
+ </div>
+    <div class="av_card">
+     <p class="av_txt"> <i>"Ótimo para presentear! Minha filha adorou o presente!"</i> </p>
+     <h3 class="av_nm"> - Paggliacci</h3>   
+    </div>
+</section>
+
+<!-- contatos e map -->
+<section class="contato" id="Contato_nav">
+  <h2 class="titulo_contato"><span class="line">| Contato |</span></h2>
+  <br>
+    <div class="contato-container">
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7314590903734!2d-46.414934789787715!3d-24.005258177959245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1db2e586da8d%3A0x271ae3e10bdc671e!2sFatec%20Praia%20Grande!5e0!3m2!1sen!2sbr!4v1764209612069!5m2!1sen!2sbr"
+       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <form class="form-contato" >
+      <div class="form_container">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu email" required>
+        <textarea name="mensagem" rows="6" placeholder="Sua mensagem" required></textarea>
+     
+      </div>
+      <button class="btn-enviar" type="submit">Enviar</button>
+      <p class="contato-info">
+        Telefone: (11) 98765-4321<br>
+        Email: vaudevilla@trabalhop2devweb.com.br
+      </p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p class="footer_txt"> ©2025 Vaudevilla P2. Todos os Direitos reservados.</p>
+  <img src ="img/logos_social.png" class="social_logo">
+</footer>
+
+</body>
+</html>

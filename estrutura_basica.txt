@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+    <!-- Outras informações e links para CSS/JavaScript vão aqui -->
+</head>
+<body>
+    <!-- O conteúdo visível do seu site vai aqui -->
+    <header>
+        <!-- Cabeçalho do site (logo, navegação, etc.) -->
+    </header>
+    <nav>
+        <!-- Menu de navegação -->
+    </nav>
+    <main>
+        <!-- Conteúdo principal da página -->
+        <section>
+            <!-- Uma seção da página -->
+        </section>
+        <article>
+            <!-- Um artigo ou conteúdo independente -->
+        </article>
+    </main>
+    <footer>
+        <!-- Rodapé do site (informações de contato, direitos autorais, etc.) -->
+    </footer>
+</body>
+</html>
+
+
+Folder highlights
+HTML/CSS files define a responsive, Linux-themed website template featuring a header, content sections, and four item cards.
+
+
+
+
+//RESPONSIVO
+
+
+@media (max-width: 768px) {
+   
+    .container-flex {
+        display: block; 
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .item-esquerda, .item-direita {
+        padding: 1vh 0;
+    }
+
+    .bg_linux {
+        height: 20vh;
+    }
+
+    .texto-sobreposto {
+        position: static;
+        bottom: auto;
+        left: auto;
+        margin: 10px; 
+        text-align: center;
+        width: auto;
+        background-color: rgba(130, 130, 130, 0.8); 
+    }
+
+    .texto-sobreposto-lorem {
+        position: static;
+        bottom: auto;
+        left: auto;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        white-space: normal; 
+        background-color: rgba(130, 130, 130, 0.8);
+    }
+    
+    .container_section_itens {
+        padding: 1.5vh 5vh;
+        display: block;
+        text-align: center;
+    }
+    
+    /* Ajuste para os Cards */
+    .cards  {
+        padding: 1.5vh 5vh; /* Reduz o padding horizontal */
+        display: block; /* Empilha os cards */
+    }
+
+    .card_itens {
+        margin-bottom: 20px;
+    }
+    
+    .cards_img  {
+        height: 15vh;
+        width: 15vh;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    
+    .card_itens > ul > li {
+        padding: 5px 0;
+    }
+}
+

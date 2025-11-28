@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(88, 66, 47, 1);
+    display: flex;
+    color: rgba(246, 193, 128, 1);   
+}
+
+
+.button_login  { 
+    background-color: rgb(255, 74, 74);
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button_login a {
+    text-decoration: none;
+    color: rgba(246, 193, 128, 1);
+}
+
+.button_login:hover{
+background: #460d0d;
+color: #302401;
+}
+
+.logo_area{
+   display: flex;
+   align-items: center;
+}
+
+.logo{
+    background-color:rgba(246, 193, 128, 1);
+     min-width: 80px;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.villa{
+    color: rgb(255, 255, 255);
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 15%;  
+    font-size: 15px 
+}
+
+.nav_lik{
+    color: rgba(246, 193, 128, 1);
+    text-decoration: none;  
+}
+
+.nav_lik:hover{
+    background-color: #cf9e63;
+    color: #583f2f;
+     border-radius: 5px;         
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    gap: 20%;
+    background-color: rgb(236, 206, 168);
+    
+}
+.produtos{
+    width: 50%;
+    
+}
+.card{
+    display: flex;
+    background-color: rgba(88, 66, 47, 1);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+    box-shadow: 10px black;
+    height: 20%;
+}
+.info{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(246, 193, 128, 1);
+}
+
+.btn_add{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn_add:hover {
+    background: #830505;
+}
+
+.carrinho{
+    width: 30%;
+    background-color:  rgba(88, 66, 47, 1);
+    padding: 20px;
+    box-shadow: 0 2px 6px black;
+    border-radius: 10px;
+    text-align: center;
+    color: rgba(246, 193, 128, 1);
+}
+
+.carrinho ul{
+    list-style: none;
+    padding: 0;
+}
+
+.carrinho li{
+    padding: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.carrinho{
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.total{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.btn_finalizar{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/*footer*/
+footer{
+  background-color: rgba(88, 66, 47, 1);
+  padding: 50px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;      
+}
+
+.footer_txt{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.social_logo{
+    width: 15%;
+}

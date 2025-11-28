@@ -1,0 +1,99 @@
+.cards_container{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.produtos{
+    padding: 50px 80px;
+    background-color: rgb(236, 206, 168);
+    font-size: 25px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  color: rgb(98, 56, 28);
+}
+.card img{
+  width: 100%;
+  display: flex;
+  align-items: center;  
+}
+.card{
+  background-color: rgb(98, 56, 28);
+  width: 300px;
+  justify-content: center;
+  padding: 10px 10px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.257);
+  display:flex;
+  flex-direction: column;
+  align-items: center;          
+}
+.compre{
+  background-color: rgb(255, 74, 74);
+  padding: 12px 25px;
+  border-radius: 10px;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-shadow: 2px 2px 4px black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.titulo_produto{
+    text-align: center;
+    color:rgb(236, 206, 168);
+}
+
+.desc_produto{
+    text-align: center;
+    color:rgb(236, 206, 168);
+     line-height: 1.5;
+}
+.cards-container{
+  display: flex;
+  justify-content: center;
+}
+.card h3{
+    margin: 15px;  
+}
+.avaliações{
+  background-color:  rgb(236, 206, 168);
+}
+
+.av_card{
+  background-color: rgb(98, 56, 28);
+  width: 300px;
+  justify-content: center;
+  padding: 10px 10px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.257);
+    
+}
+.av_container{
+  display:flex;
+  justify-content: center;
+  gap: 40px;   
+}
+
+.av_est{
+    font-size: 40px;
+}
+
+.av_txt{
+  text-align: center;
+  padding: 25px 25px;
+  font-size: 30px;
+  color:rgb(236, 206, 168);
+}
+
+.av_nm{
+  text-align: right;
+  padding-top: 5px;
+  color:rgb(211, 139, 44);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/vaudp2-css/header.css">
+    <link rel="stylesheet" href="./css/login-css/login.css">
+    <link rel="stylesheet" href="./css/login-css/login_responsivo.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/footer.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/responsivo.css">
+    <link rel="stylesheet" href="./css/vaudp2-css/loja_responsivo.css">
+    <title>Vaudevill_login</title>
+</head>
+<body>
+    <header>
+        <div class="logo_area">
+        <img src ="img/vaudevilla_logo.png"  class="logo">
+        <h1> Vaude<span class="villa">Villa</span></h1>
+        </div>
+    <!-- botoes -->
+    <div class="nav_links"> 
+        <h1><a href="./index.html" class="nav_lik">Home</a>
+        <!-- <h1><a href="#Sobre_nav" class="nav_lik">Sobre</a> </h1> 
+        <h1><a href="#Produto_nav" class="nav_lik">Produtos</a> </h1> 
+        <h1><a href="#Avaliacao_nav" class="nav_lik">Avaliaçoẽs</a></h1>
+        <h1><a href="#Contato_nav" class="nav_lik">Contato</a> </h1> -->
+        <button class="login"><a   href="./index.html" >Logout</a></button>
+    </div>
+    </header>   
+<!-- Sessao da tela de login aqui -->
+<form id="formLogin">
+    <div id="login_panel_bg">
+        <div id="caixa_tela_login_bg">
+            <h1 class="login_caixa_text">Login</h1>
+             <div id="entrada_botao">
+                <input id="email" placeholder="email" type="email" required></input>
+                <input id="senha" placeholder="senha" type="password" required></input>
+                <button type="submit" id="botao">Entrar</button>
+            </div>
+        </form>
+            <p id="se-cadastre">Não tem conta? <span>Cadastre-se</span></p>
+            <p id="se-cadastre"><span>Esqueceu a senha?</span></p>
+        </div>
+    </div>
+
+    <!-- Rodape aqui -->
+    <footer class="footer">
+        <p class="footer_txt"> ©2025 Vaudevilla P2. Todos os Direitos reservados.</p>
+        <img class="social_logo" src="img/logos_social.png">
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

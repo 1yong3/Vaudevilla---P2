@@ -1,0 +1,90 @@
+
+* {
+    margin: 0%;;
+    padding: 0%;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 80%;
+}  
+.nav_lik:hover{
+    background-color: #cf9e63;
+    color: #583f2f;
+     border-radius: 5px;
+     padding: 10px 15px;     
+}
+
+
+#login_panel_bg {
+    background-color: rgb(236, 206, 168);
+    padding: 1.3vh;
+}
+
+
+#caixa_tela_login_bg {
+    background-color: rgb(98, 56, 28);
+    border-radius: 2vh;
+    margin: 3% 30% 3%;
+    padding: 6% 0%;
+    color: white;
+    display: grid;
+}
+
+/* texto login & botoes */
+
+.login_caixa_text {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 2vh;
+    font-size: 50px;
+    color: rgba(246, 193, 128, 1);
+    text-align: center;
+}
+
+#email, #senha {
+    padding: 0 3%;
+}
+/* Aqui Estavam os id entrada que estavam dobrados dando conflito */
+#email, #senha, #botao {
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(220, 0, 0);
+    border-radius: 1vh;
+    border-color: rgb(98, 56, 28);
+    font-size: 3vh;
+    padding: 0 3vh;
+    height: 5vh;
+    margin-bottom: 10px;
+}
+
+
+#botao {
+    color: rgba(246, 193, 128, 1);
+    width: 100%;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    font-size: 20px; 
+    
+}
+
+#se-cadastre {
+    color: rgba(246, 193, 128, 1);
+    text-align: center;
+    font-size: 25px;
+}
+
+span {
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(246, 193, 128, 1);
+}
+
+.login:hover{
+background: #460d0d;
+color: #f1f1f1;
+}

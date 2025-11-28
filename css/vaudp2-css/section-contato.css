@@ -1,3 +1,4 @@
+
 .contato {
   background: rgb(236, 206, 168);
 }
@@ -11,30 +12,29 @@
 }
 .contato-container {
   display: flex;
-  gap: 30px;
+  gap: 7vh;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding: 3vh 0 4vh 0; 
 }
+
+
 .mapa {
-  flex: 420px; 
-  max-width: 600px;
-  min-width: 280px;
+  width: 55vh;
+  height: 28vh;
 }
-.mapa img {
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 8px;
-  display: block;
-  border: 1px solid rgba(0,0,0,0.08);
-}
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+
 .form-contato {
   flex: 420px;
-  max-width: 420px;
-  min-width: 260px;
   display: flex;
   flex-direction: column;
+  max-width: 420px;
   height: 350px; 
   padding: 10px 0;
 }

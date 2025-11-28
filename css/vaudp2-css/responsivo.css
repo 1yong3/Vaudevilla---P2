@@ -1,5 +1,4 @@
-@media (max-width: 578px) {
-
+@media (max-width: 768px) {
   html, body { max-width: 100%; overflow-x: hidden; }
 
   /* header: */
@@ -10,6 +9,10 @@
     padding: 12px 10px;
   }
 
+  .nav_links {
+    justify-content: center;
+    padding: 0 18vh 0 0vh;
+  }
   .overlay_txt { 
     padding: 12px;
     height: auto; 
@@ -37,8 +40,8 @@
   }
 
   .sobre_txt { 
-    margin: 0 12px; 
-    font-size: 18px; 
+    margin: 0; 
+    font-size: 20px; 
   }
 
   /* cards ajustar larguras */
@@ -63,16 +66,26 @@
     flex-direction: column; gap: 14px;
     padding: 0 12px; 
   }
-  .mapa, .form-contato {
-    flex: 1 1 100%;
-    max-width: 100%;
-    min-width: 0;
+
+
+  .mapa { 
+   width: 100%;
   }
 
-  .mapa img { 
-    height: 220px;
-    object-fit: cover; 
+  iframe {
+    width: 100%;
+    height: 100%;
   }
+
+
+
+  .form-contato {
+    min-width: 100%;
+  }
+
+  .form_container {
+    color: brow;
+ }
 
   /* formularios: */
   .btn-enviar { 
@@ -81,9 +94,8 @@
   }
 
   /* evitar overflow de elementos flexíveis */
-  .card, .av_card, .mapa, .form-contato, .cards_container, .cards-container {
-    box-sizing: border-box;
-    min-width: 0; 
+  .card, .av_card, .mapa, .cards_container, .cards-container {
+    box-sizing: border-box; 
   }
 
   .titulo_contato {

@@ -5,7 +5,8 @@
 header{
     background-color: rgba(88, 66, 47, 1);
     display: flex;
-    color: rgba(246, 193, 128, 1);   
+    color: rgba(246, 193, 128, 1);  
+    gap: 73%;
 }
 
 

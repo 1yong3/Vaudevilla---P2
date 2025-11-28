@@ -6,7 +6,7 @@
 header{
     display: flex;
     align-items: center;
-    gap: 80%;
+    gap: 90%;
 }  
 .nav_lik:hover{
     background-color: #cf9e63;
